@@ -1,0 +1,21 @@
+# fix depends
+! sudo nano /etc/apt/sources.list
+
+# add line
+ deb http://archive.ubuntu.com/ubuntu/ focal main restricted
+
+! sudo apt update
+
+sudo apt search libldap
+sudo apt search libssl
+sudo apt search libsnmp
+
+
+
+
+#### SQL ####
+
+sudo systemctl status mysql
+sudo systemctl start mysql
+
+# find errors
